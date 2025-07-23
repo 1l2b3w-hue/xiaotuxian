@@ -1,0 +1,149 @@
+.main_body {
+    margin: 0 auto;
+    width: 1240px;
+}
+/* 顶部导航 */
+.nav {
+    background-color: #333;
+}
+.nav .main_body ul {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 53px;
+}
+.nav .main_body ul li a {
+    padding: 0 15px;
+    font-size: 14px;
+    color: #cdcdcd;
+    border-left: 2px solid #666;
+}
+.nav .main_body ul li:first-child a {
+    border-left:none;
+}
+.nav .main_body ul li a:hover {
+    color: aqua;
+}
+.icon-shouji {
+    vertical-align: middle;
+    font-size: 14px;
+    margin-right: 2px;
+}
+/* 搜索栏 */
+.search .main_body {
+    display: flex;
+    align-items: center;
+}
+.search h1 a {
+    display: block;
+    width: 200px;
+    height: 132px;
+    font-size: 0;
+    background: url(../images/logo.png) no-repeat center 18px /contain;
+}
+.search .main_body ul {
+    display: flex;
+    width: 820px;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 16px;
+}
+.search .main_body>ul>li {
+    margin-right: 40px;
+}
+.search .main_body>ul>li>a {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+}
+.search .main_body>ul>li>a:hover {
+    color: aqua;
+    border-bottom: 1px solid aqua;
+}
+.search .main_body {
+    position: relative;
+}
+.search .main_body>ul>li:hover div{
+    border: 1px solid #e7e7e7;
+    box-shadow: 1px 1px 1px gray;
+    height: 132px;
+}
+
+.layer {
+    transition: all 0.4s;
+    position: absolute;
+    overflow: hidden;
+    height: 0px;
+    top: 110px;
+    left: 0;
+    width: 1240px;
+
+}
+.layer ul {
+    height: 132px;
+}
+.layer ul li{
+    width: 110px;
+    height: 90px;
+    text-align: center;
+}
+.layer ul li img{
+    width: 60px;
+    height: 60px;
+}
+.layer ul li a {
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+}
+.layer ul li a p {
+    padding-top: 10px;
+}
+.layer ul li a:hover  {
+    color: aqua;
+}
+
+
+
+.search_area {
+    display: flex;
+    width: 170px;
+    height: 32px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.search_area .icon-sousuo {
+    font-size: 25px;
+}
+.search_area input {
+    vertical-align: middle;
+    margin-left: 5px;
+    border:none;
+    outline: none;
+}
+.search_area input::placeholder {
+    font-size: 15px;
+    color: #cdcdcd;
+}
+.shopping a{
+    position: relative;
+    margin-left: 20px;
+    display: flex;
+    width: 50px;
+}
+
+.shopping .icon-gouwuche {
+    font-size: 22px;
+    color: #333;
+}
+.shopping em {
+    position: absolute;
+    top: -10px;
+    left: 12px;
+    display: block;
+    width: 20px;
+    font: normal 12px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 9px;
+    background-color: #e26237;
+    color: white;
+}
