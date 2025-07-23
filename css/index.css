@@ -77,7 +77,8 @@
     top: 110px;
     left: 0;
     width: 1240px;
-
+    z-index: 10;
+    background-color: #fff;
 }
 .layer ul {
     height: 132px;
@@ -101,8 +102,6 @@
 .layer ul li a:hover  {
     color: aqua;
 }
-
-
 
 .search_area {
     display: flex;
@@ -146,4 +145,39 @@
     border-radius: 9px;
     background-color: #e26237;
     color: white;
+}
+/* 轮播图 */
+.slideshow {
+    background-color: #f5f5f5;
+}
+.slideshow>.main_body {
+    position: relative;
+    overflow: hidden;
+}
+.slideshow>.main_body>.slide_area>ul {
+    display: flex;
+}
+.slideshow>.main_body>.menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #1c2622;
+    opacity: 0.8;
+}
+.slideshow>.main_body>.menu>ul>li {
+    width: 250px;
+    padding-left: 40px;
+    height: 50px;
+    line-height: 50px;
+}
+.slideshow>.main_body>.menu>ul>li:hover {
+    background-color: #27ba9b;
+}
+.slideshow>.main_body>.menu>ul>li>a {
+    color: white;
+    font-size: 14px;
+    margin-right: 4px;
+}
+.slideshow>.main_body>.menu>ul>li>a:first-child {
+    font-size: 16px;
 }
