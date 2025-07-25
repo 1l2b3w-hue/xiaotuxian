@@ -6,6 +6,76 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1360",
+      "name": "新浪微博",
+      "font_class": "xinlangweibo",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "546164",
+      "name": "空盒子",
+      "font_class": "konghezi",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "3687492",
+      "name": "公众号",
+      "font_class": "gongzhonghao",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "6129267",
+      "name": "228客服",
+      "font_class": "kefu",
+      "unicode": "e7c7",
+      "unicode_decimal": 59335
+    },
+    {
+      "icon_id": "8279770",
+      "name": "问题反馈",
+      "font_class": "wentifankui",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "10487545",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "12387139",
+      "name": "货车",
+      "font_class": "huoche",
+      "unicode": "e90a",
+      "unicode_decimal": 59658
+    },
+    {
+      "icon_id": "3888368",
+      "name": "爱心-01",
+      "font_class": "aixin-",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "7457306",
+      "name": "消息-框",
+      "font_class": "xiaoxi-kuang",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "8288891",
+      "name": "眼睛",
+      "font_class": "yanjing",
+      "unicode": "e857",
+      "unicode_decimal": 59479
+    },
+    {
       "icon_id": "15838561",
       "name": "arrow-left-bold",
       "font_class": "arrow-left-bold",
